@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC79C8C8-CC9E-46AB-9AB6-F26F2AE3E684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentUploader.API", "src\DocumentUploader.API\DocumentUploader.API.csproj", "{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BE2FCF64-A9F6-4C39-B705-A2B809324773}"
+	ProjectSection(SolutionItems) = preProject
+		docs\architecture.md = docs\architecture.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibs", "src\SharedLibs\SharedLibs.csproj", "{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0391C943-9EF1-49D9-B473-4B8209442784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentUploader.Tests", "tests\DocumentUploader.Tests\DocumentUploader.Tests.csproj", "{BCA70947-B88D-4585-B865-A03E0C0E4903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentUploader.Specs", "tests\DocumentUploader.Specs\DocumentUploader.Specs.csproj", "{10192542-2D3B-4CEF-A2BE-C1D1C34117FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA70947-B88D-4585-B865-A03E0C0E4903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA70947-B88D-4585-B865-A03E0C0E4903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA70947-B88D-4585-B865-A03E0C0E4903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA70947-B88D-4585-B865-A03E0C0E4903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10192542-2D3B-4CEF-A2BE-C1D1C34117FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10192542-2D3B-4CEF-A2BE-C1D1C34117FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10192542-2D3B-4CEF-A2BE-C1D1C34117FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10192542-2D3B-4CEF-A2BE-C1D1C34117FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04BE4326-1B61-4EAD-8C0B-D57AFB2AFF20} = {CC79C8C8-CC9E-46AB-9AB6-F26F2AE3E684}
+		{665A6AAA-2B1E-4A3E-8E4C-9B0B42D866B7} = {CC79C8C8-CC9E-46AB-9AB6-F26F2AE3E684}
+		{BCA70947-B88D-4585-B865-A03E0C0E4903} = {0391C943-9EF1-49D9-B473-4B8209442784}
+		{10192542-2D3B-4CEF-A2BE-C1D1C34117FE} = {0391C943-9EF1-49D9-B473-4B8209442784}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0015576-3E2E-4E75-B968-EEFA3191A5EF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@DocumentUploader.API_HostAddress = http://localhost:5251
+
+GET {{DocumentUploader.API_HostAddress}}/UploadController/
+Accept: application/json
+
+###
