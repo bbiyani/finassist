@@ -28,8 +28,8 @@ namespace DocumentUploader.Specs
                 var eventGridMock = new Mock<EventGridPublisherClient>();
                 services.AddSingleton(eventGridMock.Object);
 
-                services.AddAuthentication("Test")
-                    .AddScheme<AuthenticationSchemeOptions, FakeJwtBearerHandler>("Test", options => { });
+                //services.AddAuthentication("Test")
+                //    .AddScheme<AuthenticationSchemeOptions, FakeJwtBearerHandler>("Test", options => { });
 
                 services.PostConfigureAll<AuthenticationOptions>(options =>
                 {
